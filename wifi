@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #ccc;
+}
+
+.services h2 {
+    color: #0d6efd;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin: 8px 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.contacts a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+.timer {
+    margin-top: 20px;
+    background-color: rgba(13, 110, 253, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    color: #0d6efd;
+}
