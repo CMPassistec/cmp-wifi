@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wi-Fi CMP Assistência</title>
+<style>
+    body {
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+    }
+    .logo {
+        margin-top: 40px;
+        width: 180px;
+    }
+    h1 {
+        color: #00ccff;
+        margin-top: 20px;
+    }
+    p, ul {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    ul li::before {
+        content: "✔️ ";
+        color: #00ccff;
+    }
+    .button {
+        background-color: #00cc66;
+        color: white;
+        border: none;
+        padding: 15px 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .button:hover {
+        background-color: #00b359;
+    }
+    .footer {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        font-size: 16px;
+        color: #ccc;
+    }
+    .footer a {
+        color: #00ccff;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+
+<img class="logo" src="logo.png" alt="CMP Assistência Técnica">
+
+<h1>Seja bem-vindo à CMP Assistência Técnica</h1>
+
+<p>Fique à vontade e conheça nossos serviços:</p>
+<ul>
+    <li>Troca de telas</li>
+    <li>Baterias</li>
+    <li>Conectores</li>
+    <li>Reparos em placas</li>
+    <li>Restauração de software</li>
+    <li>Venda de acessórios</li>
+    <li>Cabos</li>
+    <li>Carregadores</li>
+    <li>Adaptadores</li>
+    <li>Xerox / Impressão</li>
+    <li>E muito mais…</li>
+</ul>
+
+<button class="button" onclick="window.location.href='http://1.1.1.1:8000/login'">Conectar à Internet</button>
+
+<div class="footer">
+    Siga-nos no <a href="https://instagram.com/cmp.assistec" target="_blank">@cmp.assistec</a> |
+    WhatsApp: <a href="https://wa.me/5547992292563" target="_blank">(47) 99229-2563</a>
+</div>
+
+</body>
+</html>
